@@ -1,4 +1,4 @@
-lines = open("input.txt").read().splitlines()[:-1]
+lines = open("input.txt").read().splitlines()
 
 passwords = []
 for line in lines:
