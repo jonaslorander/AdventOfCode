@@ -276,3 +276,8 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 .vscode/settings.json
+
+
+# AoC sample inputs
+sampleinput*.txt
+input.txt
