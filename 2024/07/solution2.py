@@ -1,5 +1,4 @@
 import itertools
-import math
 
 equations = open("input.txt").read().splitlines()
 
