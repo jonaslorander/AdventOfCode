@@ -1,4 +1,4 @@
-ids = open("input.txt").read().replace('\r', '').replace('\n', '').split(',')
+ids = open("sampleinput.txt").read().replace('\r', '').replace('\n', '').split(',')
 
 def find_invalid_ids(start, stop):
     id_list = list(range(int(start), int(stop) + 1))
