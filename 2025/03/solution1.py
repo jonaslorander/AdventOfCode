@@ -20,7 +20,7 @@ for bat_row in batteries:
         if b > second[0]:
             second = (b, p)
 
-    row_sum = first[0] * 10 + second[0] #int(bat_row[first[1]] + bat_row[first[1] + second[1]])
+    row_sum = first[0] * 10 + second[0]
     battery_sum += row_sum
     #print(row_sum, battery_sum)
         
